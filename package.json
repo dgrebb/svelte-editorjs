@@ -10,7 +10,12 @@
   "homepage": "https://github.com/pablo-abc/svelte-editorjs",
   "repository": "github:pablo-abc/svelte-editorjs",
   "funding": "https://www.buymeacoffee.com/pablo.abc",
-  "keywords": ["svelte", "WYSWYG", "editor", "editorjs"],
+  "keywords": [
+    "svelte",
+    "WYSWYG",
+    "editor",
+    "editorjs"
+  ],
   "scripts": {
     "prebuild": "rimraf ./dist",
     "build": "cross-env NODE_ENV=production rollup -c",
@@ -21,10 +26,11 @@
   },
   "peerDependencies": {
     "@editorjs/editorjs": "^2.19.3",
-    "svelte": "3.31.0"
+    "svelte": "3.31.0 || ^4.0.0"
   },
-  "files": ["dist"],
-  "dependencies": {},
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
